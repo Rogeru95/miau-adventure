@@ -1,0 +1,18 @@
+[
+  { "numero": 1, "nombre": "Atardecer en el Vecindario", "dificultad": 1, "jefe": "Can Guardián", "cueva": "Sótano del Vecindario", "premio": "una vida extra",
+    "descripcion": "Casas de colores, calles y jardines bajo un cielo naranja. Es el mundo para aprender a saltar, usar el dash y vencer a los primeros mapaches." },
+  { "numero": 2, "nombre": "Callejón Nocturno", "dificultad": 2, "jefe": "Búho Lunar", "cueva": "Alcantarilla Secreta", "premio": "un escudo",
+    "descripcion": "El mismo barrio de noche, con luna y estrellas. Aparecen más enemigos y llegan las primeras abejas." },
+  { "numero": 3, "nombre": "Tejados Nevados al Amanecer", "dificultad": 3, "jefe": "Cuervo Rey", "cueva": "Gruta de Hielo", "premio": "un súper salto",
+    "descripcion": "Tejados cubiertos de nieve al salir el sol, con copos que caen mientras los gatos saltan de casa en casa." },
+  { "numero": 4, "nombre": "El Muelle al Atardecer", "dificultad": 3, "jefe": "Cangrejo Rey", "cueva": "Cueva Marina", "premio": "el poder de súper gato",
+    "descripcion": "Muelles de madera, botes y cajas sobre el mar. Un mal salto y el gato termina en el agua." },
+  { "numero": 5, "nombre": "Volcán Ardiente", "dificultad": 4, "jefe": "Lagarto de Lava", "cueva": "Caverna de Magma", "premio": "un súper salto",
+    "descripcion": "Rocas sobre un mar de lava y chispas en el aire. Las caídas aquí son peligrosas." },
+  { "numero": 6, "nombre": "Estación Espacial", "dificultad": 4, "jefe": "Nave Nodriza", "cueva": "Cinturón de Asteroides", "premio": "el poder de súper gato",
+    "descripcion": "Plataformas metálicas en el espacio con gravedad baja. Los gatos usan traje espacial y los enemigos son aliens y drones." },
+  { "numero": 7, "nombre": "La Gran Muralla", "dificultad": 4, "jefe": "Dragón Imperial", "cueva": "Pasadizo de Bambú", "premio": "un súper salto",
+    "descripcion": "Un recorrido sobre la muralla entre montañas y faroles de papel al atardecer." },
+  { "numero": 8, "nombre": "Prados del Eclipse Lunar", "dificultad": 5, "jefe": "El Gato del Abismo", "cueva": "Vacío del Eclipse", "premio": "una vida extra",
+    "descripcion": "Prados oscuros iluminados por luciérnagas durante un eclipse. Aquí espera el jefe final." }
+]

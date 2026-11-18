@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es" data-tema="oscuro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Capturas reales de los ocho mundos de MIAU Adventure.">
+    <meta name="author" content="Roger Gilberto Saltos Villao y Carlos Elian Ventimilla Suconota">
+    <meta name="theme-color" content="#14112b">
+    <title>Galería | MIAU Adventure</title>
+    <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/tema.js"></script>
+</head>
+<body>
+    <a class="saltar" href="#contenido">Saltar al contenido</a>
+
+    <header class="cabecera">
+        <nav class="nav contenedor" aria-label="Navegación principal">
+            <a class="nav__marca" href="index.html">
+                <img src="img/favicon.svg" alt="" width="40" height="40">
+                <span>MIAU<br>ADVENTURE</span>
+            </a>
+            <ul class="nav__menu" id="menu">
+                <li><a class="nav__enlace" href="index.html">Inicio</a></li>
+                <li><a class="nav__enlace" href="personajes.html">Personajes</a></li>
+                <li><a class="nav__enlace" href="galeria.html" aria-current="page">Galería</a></li>
+                <li><a class="nav__enlace" href="jugar.html">Jugar</a></li>
+                <li><a class="nav__enlace" href="contacto.html">Contacto</a></li>
+            </ul>
+            <div class="nav__acciones">
+                <button class="boton-icono" id="btn-tema" type="button" aria-label="Cambiar a tema claro">
+                    <svg class="icono icono--luna" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a7.5 7.5 0 0 0 9 9 9 9 0 1 1-9-9z"/></svg>
+                    <svg class="icono icono--sol" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+                </button>
+                <button class="boton-icono nav__hamburguesa" id="btn-menu" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menú">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main id="contenido">
+        <section class="cabecera-pagina">
+            <div class="contenedor">
+                <p class="etiqueta">Capturas reales del juego</p>
+                <h1 class="cabecera-pagina__titulo">Galería</h1>
+                <p>Así se ve MIAU Adventure en acción. Usa las flechas, los puntos o desliza con el dedo.</p>
+            </div>
+        </section>
+
+        <section class="seccion" aria-labelledby="titulo-carrusel">
+            <div class="contenedor">
+                <h2 class="visualmente-oculto" id="titulo-carrusel">Carrusel de capturas</h2>
+                <div class="carrusel" id="carrusel" aria-roledescription="carrusel" aria-label="Capturas del juego" tabindex="0">
+                    <div class="carrusel__ventana">
+                        <ul class="carrusel__pista" id="pista">
+                        <li class="carrusel__diapositiva" role="group" aria-roledescription="diapositiva" aria-label="1 de 12">
+                            <figure>
+                                <img src="img/galeria/menu.jpg" alt="Menú principal: se elige el modo de juego, el gato, la dificultad y el mundo inicial." width="1280" height="720" loading="lazy">
+                                <figcaption>Menú principal: se elige el modo de juego, el gato, la dificultad y el mundo inicial.</figcaption>
+                            </figure>
+                        </li>
+                        <li class="carrusel__diapositiva" role="group" aria-roledescription="diapositiva" aria-label="2 de 12">
+                            <figure>
+                                <img src="img/galeria/mundo-1.jpg" alt="Mundo 1, Atardecer en el Vecindario: el primer recorrido entre casas y jardines." width="1280" height="720" loading="lazy">
+                                <figcaption>Mundo 1, Atardecer en el Vecindario: el primer recorrido entre casas y jardines.</figcaption>
+                            </figure>
+                        </li>
+                        <li class="carrusel__diapositiva" role="group" aria-roledescription="diapositiva" aria-label="3 de 12">
+                            <figure>
+                                <img src="img/galeria/mundo-2.jpg" alt="Mundo 2, Callejón Nocturno: el barrio de noche, con más enemigos." width="1280" height="720" loading="lazy">
+                                <figcaption>Mundo 2, Callejón Nocturno: el barrio de noche, con más enemigos.</figcaption>
+                            </figure>
+                        </li>
+                        <li class="carrusel__diapositiva" role="group" aria-roledescription="diapositiva" aria-label="4 de 12">
+                            <figure>
+                                <img src="img/galeria/mundo-3.jpg" alt="Mundo 3, Tejados Nevados al Amanecer: saltos entre techos cubiertos de nieve." width="1280" height="720" loading="lazy">
+                                <figcaption>Mundo 3, Tejados Nevados al Amanecer: saltos entre techos cubiertos de nieve.</figcaption>
+                            </figure>
+                        </li>
+                        <li class="carrusel__diapositiva" role="group" aria-roledescription="diapositiva" aria-label="5 de 12">
+                            <figure>
+                                <img src="img/galeria/mundo-4.jpg" alt="Mundo 4, El Muelle al Atardecer: plataformas de madera sobre el mar." width="1280" height="720" loading="lazy">
+                                <figcaption>Mundo 4, El Muelle al Atardecer: plataformas de madera sobre el mar.</figcaption>
+                            </figure>
+                        </li>
+                        <li class="carrusel__diapositiva" role="group" aria-roledescription="diapositiva" aria-label="6 de 12">
+                            <figure>
+                                <img src="img/galeria/mundo-5.jpg" alt="Mundo 5, Volcán Ardiente: rocas y lava en el camino." width="1280" height="720" loading="lazy">
+                                <figcaption>Mundo 5, Volcán Ardiente: rocas y lava en el camino.</figcaption>
+                            </figure>
+                        </li>
+                        <li class="carrusel__diapositiva" role="group" aria-roledescription="diapositiva" aria-label="7 de 12">
+                            <figure>
+                                <img src="img/galeria/mundo-6.jpg" alt="Mundo 6, Estación Espacial: gravedad baja, aliens y drones." width="1280" height="720" loading="lazy">
+                                <figcaption>Mundo 6, Estación Espacial: gravedad baja, aliens y drones.</figcaption>
+                            </figure>
+                        </li>
+                        <li class="carrusel__diapositiva" role="group" aria-roledescription="diapositiva" aria-label="8 de 12">
+                            <figure>
+                                <img src="img/galeria/mundo-7.jpg" alt="Mundo 7, La Gran Muralla: faroles y montañas al atardecer." width="1280" height="720" loading="lazy">
+                                <figcaption>Mundo 7, La Gran Muralla: faroles y montañas al atardecer.</figcaption>
+                            </figure>
+                        </li>
+                        <li class="carrusel__diapositiva" role="group" aria-roledescription="diapositiva" aria-label="9 de 12">
+                            <figure>
+                                <img src="img/galeria/mundo-8.jpg" alt="Mundo 8, Prados del Eclipse Lunar: el último mundo antes del jefe final." width="1280" height="720" loading="lazy">
+                                <figcaption>Mundo 8, Prados del Eclipse Lunar: el último mundo antes del jefe final.</figcaption>
+                            </figure>
+                        </li>
+                        <li class="carrusel__diapositiva" role="group" aria-roledescription="diapositiva" aria-label="10 de 12">
+                            <figure>
+                                <img src="img/galeria/jefe.jpg" alt="Pelea contra un jefe, con su barra de vida en la parte superior." width="1280" height="720" loading="lazy">
+                                <figcaption>Pelea contra un jefe, con su barra de vida en la parte superior.</figcaption>
+                            </figure>
+                        </li>
+                        <li class="carrusel__diapositiva" role="group" aria-roledescription="diapositiva" aria-label="11 de 12">
+                            <figure>
+                                <img src="img/galeria/dos-jugadores.jpg" alt="Modo de dos jugadores: dos gatos en la misma pantalla." width="1280" height="720" loading="lazy">
+                                <figcaption>Modo de dos jugadores: dos gatos en la misma pantalla.</figcaption>
+                            </figure>
+                        </li>
+                        <li class="carrusel__diapositiva" role="group" aria-roledescription="diapositiva" aria-label="12 de 12">
+                            <figure>
+                                <img src="img/galeria/tienda.jpg" alt="Tienda: mejoras, sombreros y la gata Nimbus a cambio de monedas." width="1280" height="720" loading="lazy">
+                                <figcaption>Tienda: mejoras, sombreros y la gata Nimbus a cambio de monedas.</figcaption>
+                            </figure>
+                        </li>
+                        </ul>
+                    </div>
+                    <button class="carrusel__flecha carrusel__flecha--anterior" type="button" id="btn-anterior" aria-label="Imagen anterior">
+                        <svg class="icono" viewBox="0 0 24 24" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg>
+                    </button>
+                    <button class="carrusel__flecha carrusel__flecha--siguiente" type="button" id="btn-siguiente" aria-label="Imagen siguiente">
+                        <svg class="icono" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>
+                    </button>
+                </div>
+                <div class="carrusel__controles">
+                    <div class="carrusel__puntos" id="puntos" role="group" aria-label="Elegir imagen"></div>
+                    <button class="boton boton--secundario boton--pequeno" type="button" id="btn-auto" aria-pressed="true">Pausar presentación</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="seccion seccion--alterna" aria-labelledby="titulo-miniaturas">
+            <div class="contenedor">
+                <h2 class="seccion__titulo" id="titulo-miniaturas">Todas las imágenes</h2>
+                <p>Haz clic en una miniatura para verla en grande.</p>
+                <ul class="miniaturas">
+                    <li><button class="miniatura" type="button" data-indice="0" aria-label="Ampliar: Menú principal: se elige el modo de juego, el gato, la dificultad y el mundo inicial.">
+                        <img src="img/galeria/menu.jpg" alt="" width="320" height="180" loading="lazy">
+                    </button></li>
+                    <li><button class="miniatura" type="button" data-indice="1" aria-label="Ampliar: Mundo 1, Atardecer en el Vecindario: el primer recorrido entre casas y jardines.">
+                        <img src="img/galeria/mundo-1.jpg" alt="" width="320" height="180" loading="lazy">
+                    </button></li>
+                    <li><button class="miniatura" type="button" data-indice="2" aria-label="Ampliar: Mundo 2, Callejón Nocturno: el barrio de noche, con más enemigos.">
+                        <img src="img/galeria/mundo-2.jpg" alt="" width="320" height="180" loading="lazy">
+                    </button></li>
+                    <li><button class="miniatura" type="button" data-indice="3" aria-label="Ampliar: Mundo 3, Tejados Nevados al Amanecer: saltos entre techos cubiertos de nieve.">
+                        <img src="img/galeria/mundo-3.jpg" alt="" width="320" height="180" loading="lazy">
+                    </button></li>
+                    <li><button class="miniatura" type="button" data-indice="4" aria-label="Ampliar: Mundo 4, El Muelle al Atardecer: plataformas de madera sobre el mar.">
+                        <img src="img/galeria/mundo-4.jpg" alt="" width="320" height="180" loading="lazy">
+                    </button></li>
+                    <li><button class="miniatura" type="button" data-indice="5" aria-label="Ampliar: Mundo 5, Volcán Ardiente: rocas y lava en el camino.">
+                        <img src="img/galeria/mundo-5.jpg" alt="" width="320" height="180" loading="lazy">
+                    </button></li>
+                    <li><button class="miniatura" type="button" data-indice="6" aria-label="Ampliar: Mundo 6, Estación Espacial: gravedad baja, aliens y drones.">
+                        <img src="img/galeria/mundo-6.jpg" alt="" width="320" height="180" loading="lazy">
+                    </button></li>
+                    <li><button class="miniatura" type="button" data-indice="7" aria-label="Ampliar: Mundo 7, La Gran Muralla: faroles y montañas al atardecer.">
+                        <img src="img/galeria/mundo-7.jpg" alt="" width="320" height="180" loading="lazy">
+                    </button></li>
+                    <li><button class="miniatura" type="button" data-indice="8" aria-label="Ampliar: Mundo 8, Prados del Eclipse Lunar: el último mundo antes del jefe final.">
+                        <img src="img/galeria/mundo-8.jpg" alt="" width="320" height="180" loading="lazy">
+                    </button></li>
+                    <li><button class="miniatura" type="button" data-indice="9" aria-label="Ampliar: Pelea contra un jefe, con su barra de vida en la parte superior.">
+                        <img src="img/galeria/jefe.jpg" alt="" width="320" height="180" loading="lazy">
+                    </button></li>
+                    <li><button class="miniatura" type="button" data-indice="10" aria-label="Ampliar: Modo de dos jugadores: dos gatos en la misma pantalla.">
+                        <img src="img/galeria/dos-jugadores.jpg" alt="" width="320" height="180" loading="lazy">
+                    </button></li>
+                    <li><button class="miniatura" type="button" data-indice="11" aria-label="Ampliar: Tienda: mejoras, sombreros y la gata Nimbus a cambio de monedas.">
+                        <img src="img/galeria/tienda.jpg" alt="" width="320" height="180" loading="lazy">
+                    </button></li>
+                </ul>
+            </div>
+        </section>
+
+        <dialog class="visor" id="visor" aria-label="Imagen ampliada">
+            <figure class="visor__figura">
+                <img id="visor-imagen" src="img/galeria/menu.jpg" alt="" width="1280" height="720">
+                <figcaption id="visor-texto"></figcaption>
+            </figure>
+            <button class="boton-icono visor__cerrar" type="button" id="visor-cerrar" aria-label="Cerrar">
+                <svg class="icono" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+            </button>
+            <button class="carrusel__flecha carrusel__flecha--anterior" type="button" id="visor-anterior" aria-label="Imagen anterior">
+                <svg class="icono" viewBox="0 0 24 24" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg>
+            </button>
+            <button class="carrusel__flecha carrusel__flecha--siguiente" type="button" id="visor-siguiente" aria-label="Imagen siguiente">
+                <svg class="icono" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>
+            </button>
+        </dialog>
+    </main>
+
+    <footer class="pie">
+        <div class="contenedor pie__grid">
+            <section class="pie__bloque">
+                <a class="nav__marca" href="index.html">
+                    <img src="img/favicon.svg" alt="" width="40" height="40">
+                    <span>MIAU<br>ADVENTURE</span>
+                </a>
+                <p>Un juego de plataformas con cinco gatos, ocho mundos y ocho jefes, hecho con HTML, CSS y JavaScript.</p>
+            </section>
+            <nav class="pie__bloque" aria-label="Enlaces del pie">
+                <h2 class="pie__titulo">Navegación</h2>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="personajes.html">Personajes</a></li>
+                    <li><a href="galeria.html">Galería</a></li>
+                    <li><a href="jugar.html">Jugar</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+            <section class="pie__bloque">
+                <h2 class="pie__titulo">Equipo</h2>
+                <ul>
+                    <li>Roger Gilberto Saltos Villao</li>
+                    <li>Carlos Elian Ventimilla Suconota</li>
+                </ul>
+            </section>
+        </div>
+        <p class="pie__creditos">Proyecto Primer Parcial · Desarrollo de Aplicaciones Web · Universidad de Guayaquil · <span id="anio">2026</span></p>
+        <button class="volver-arriba" id="btn-arriba" type="button" aria-label="Volver arriba">
+            <svg class="icono" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 15l6-6 6 6"/></svg>
+        </button>
+    </footer>
+    <script src="js/main.js" defer></script>
+    <script src="js/galeria.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,192 @@
+[
+  {
+    "id": "ada",
+    "nombre": "Ada",
+    "tipo": "gato",
+    "rol": "Gata blanca",
+    "imagen": "img/personajes/ada.png",
+    "habilidad": "Imán de pescados",
+    "descripcion": "Una gata blanca con un ojo azul y otro amarillo. Su imán atrae los pescados que están cerca, así que es ideal para no dejar ninguno atrás.",
+    "datos": [["Velocidad", "Normal"], ["Saltos en el aire", "Doble salto"], ["Disponible", "Desde el inicio"]]
+  },
+  {
+    "id": "isis",
+    "nombre": "Isis",
+    "tipo": "gato",
+    "rol": "Gata negra",
+    "imagen": "img/personajes/isis.png",
+    "habilidad": "Corre más rápido",
+    "descripcion": "Una gata negra de ojos dorados que corre un 22 % más rápido que los demás. Perfecta para quienes quieren batir el récord de tiempo.",
+    "datos": [["Velocidad", "+22 %"], ["Saltos en el aire", "Doble salto"], ["Disponible", "Desde el inicio"]]
+  },
+  {
+    "id": "freya",
+    "nombre": "Freya",
+    "tipo": "gato",
+    "rol": "Gata gris",
+    "imagen": "img/personajes/freya.png",
+    "habilidad": "Salta más alto",
+    "descripcion": "Una gata gris atigrada de ojos verdes. Sus saltos llegan un 15 % más alto, lo que le permite alcanzar plataformas y estrellas difíciles.",
+    "datos": [["Velocidad", "Normal"], ["Altura de salto", "+15 %"], ["Disponible", "Desde el inicio"]]
+  },
+  {
+    "id": "aquiles",
+    "nombre": "Aquiles",
+    "tipo": "gato",
+    "rol": "Gato blanco y negro",
+    "imagen": "img/personajes/aquiles.png",
+    "habilidad": "Triple salto",
+    "descripcion": "Un gato blanco y negro, como si llevara esmoquin. Es el único que puede saltar tres veces seguidas en el aire.",
+    "datos": [["Velocidad", "Normal"], ["Saltos en el aire", "Triple salto"], ["Disponible", "Desde el inicio"]]
+  },
+  {
+    "id": "nimbus",
+    "nombre": "Nimbus",
+    "tipo": "gato",
+    "rol": "Gata dorada",
+    "imagen": "img/personajes/nimbus.png",
+    "habilidad": "Planea al caer",
+    "descripcion": "Una gata dorada que planea suavemente al caer. Es el gato secreto: hay que desbloquearla en la tienda.",
+    "datos": [["Velocidad", "Normal"], ["Saltos en el aire", "Doble salto"], ["Disponible", "En la tienda por 600 monedas"]]
+  },
+  {
+    "id": "mapache",
+    "nombre": "Mapache",
+    "tipo": "enemigo",
+    "rol": "Enemigo",
+    "imagen": "img/personajes/mapache.png",
+    "habilidad": "Patrulla las plataformas",
+    "descripcion": "Camina de un lado a otro sobre las plataformas. Tocarlo de frente quita una vida, pero se le puede vencer saltándole encima.",
+    "datos": [["Cómo vencerlo", "Saltarle encima"], ["Dónde aparece", "En casi todos los mundos"]]
+  },
+  {
+    "id": "erizo",
+    "nombre": "Erizo",
+    "tipo": "enemigo",
+    "rol": "Enemigo",
+    "imagen": "img/personajes/erizo.png",
+    "habilidad": "Púas afiladas",
+    "descripcion": "Parece tranquilo, pero sus púas hacen daño aunque le caigas encima. Lo mejor es saltarlo por arriba.",
+    "datos": [["Cómo vencerlo", "No se puede pisar: hay que esquivarlo"], ["Dónde aparece", "En casi todos los mundos"]]
+  },
+  {
+    "id": "pajaro",
+    "nombre": "Pájaro",
+    "tipo": "enemigo",
+    "rol": "Enemigo",
+    "imagen": "img/personajes/pajaro.png",
+    "habilidad": "Vuelo rasante",
+    "descripcion": "Cruza la pantalla volando a la altura de los saltos. Hay que calcular bien el momento para no chocar con él en el aire.",
+    "datos": [["Cómo vencerlo", "Esquivarlo"], ["Dónde aparece", "En todos los mundos"]]
+  },
+  {
+    "id": "abeja",
+    "nombre": "Abeja",
+    "tipo": "enemigo",
+    "rol": "Enemiga",
+    "imagen": "img/personajes/abeja.png",
+    "habilidad": "Vigila desde el aire",
+    "descripcion": "Revolotea sobre las plataformas cuidando su zona. Aparece a partir del segundo mundo.",
+    "datos": [["Cómo vencerla", "Esquivarla"], ["Dónde aparece", "Desde el Mundo 2"]]
+  },
+  {
+    "id": "alien",
+    "nombre": "Alien",
+    "tipo": "enemigo",
+    "rol": "Enemigo",
+    "imagen": "img/personajes/alien.png",
+    "habilidad": "Flota y patrulla",
+    "descripcion": "Ocupa el lugar de los mapaches en la Estación Espacial. Flota sobre las plataformas metálicas moviendo sus antenas.",
+    "datos": [["Cómo vencerlo", "Saltarle encima"], ["Dónde aparece", "Mundo 6 · Estación Espacial"]]
+  },
+  {
+    "id": "dron",
+    "nombre": "Dron",
+    "tipo": "enemigo",
+    "rol": "Enemigo",
+    "imagen": "img/personajes/dron.png",
+    "habilidad": "Vigilancia aérea",
+    "descripcion": "La versión espacial de la abeja: un pequeño robot con hélices y un ojo rojo que vigila las alturas.",
+    "datos": [["Cómo vencerlo", "Esquivarlo"], ["Dónde aparece", "Mundo 6 · Estación Espacial"]]
+  },
+  {
+    "id": "can-guardian",
+    "nombre": "Can Guardián",
+    "tipo": "jefe",
+    "rol": "Jefe del Mundo 1",
+    "imagen": "img/personajes/jefe-can-guardian.png",
+    "habilidad": "Embestida",
+    "descripcion": "Un perro que cuida el final del vecindario. Corre de un lado a otro y salta para aplastar a los gatos.",
+    "datos": [["Mundo", "1 · Atardecer en el Vecindario"], ["Golpes para vencerlo", "3 (modo normal)"]]
+  },
+  {
+    "id": "buho-lunar",
+    "nombre": "Búho Lunar",
+    "tipo": "jefe",
+    "rol": "Jefe del Mundo 2",
+    "imagen": "img/personajes/jefe-buho-lunar.png",
+    "habilidad": "Ataque en picada",
+    "descripcion": "Vuela sobre el callejón y se lanza en picada hacia los gatos. Hay que golpearlo cuando baja.",
+    "datos": [["Mundo", "2 · Callejón Nocturno"], ["Golpes para vencerlo", "3 (modo normal)"]]
+  },
+  {
+    "id": "cuervo-rey",
+    "nombre": "Cuervo Rey",
+    "tipo": "jefe",
+    "rol": "Jefe del Mundo 3",
+    "imagen": "img/personajes/jefe-cuervo-rey.png",
+    "habilidad": "Vuelo veloz",
+    "descripcion": "El rey de los tejados nevados. Es el jefe volador más rápido y lleva una corona dorada.",
+    "datos": [["Mundo", "3 · Tejados Nevados al Amanecer"], ["Golpes para vencerlo", "4 (modo normal)"]]
+  },
+  {
+    "id": "cangrejo-rey",
+    "nombre": "Cangrejo Rey",
+    "tipo": "jefe",
+    "rol": "Jefe del Mundo 4",
+    "imagen": "img/personajes/jefe-cangrejo-rey.png",
+    "habilidad": "Pinzas y saltos",
+    "descripcion": "Domina el muelle. Se mueve más rápido que el Can Guardián y salta con frecuencia.",
+    "datos": [["Mundo", "4 · El Muelle al Atardecer"], ["Golpes para vencerlo", "5 (modo normal)"]]
+  },
+  {
+    "id": "lagarto-de-lava",
+    "nombre": "Lagarto de Lava",
+    "tipo": "jefe",
+    "rol": "Jefe del Mundo 5",
+    "imagen": "img/personajes/jefe-lagarto-de-lava.png",
+    "habilidad": "Invoca aliados",
+    "descripcion": "Vive dentro del volcán y llama a otros enemigos para que lo ayuden durante la pelea.",
+    "datos": [["Mundo", "5 · Volcán Ardiente"], ["Golpes para vencerlo", "5 (modo normal)"]]
+  },
+  {
+    "id": "nave-nodriza",
+    "nombre": "Nave Nodriza",
+    "tipo": "jefe",
+    "rol": "Jefe del Mundo 6",
+    "imagen": "img/personajes/jefe-nave-nodriza.png",
+    "habilidad": "Rayo tractor",
+    "descripcion": "Un platillo volador que flota sobre la estación espacial, con un alien al mando.",
+    "datos": [["Mundo", "6 · Estación Espacial"], ["Golpes para vencerla", "6 (modo normal)"]]
+  },
+  {
+    "id": "dragon-imperial",
+    "nombre": "Dragón Imperial",
+    "tipo": "jefe",
+    "rol": "Jefe del Mundo 7",
+    "imagen": "img/personajes/jefe-dragon-imperial.png",
+    "habilidad": "Vuelo serpenteante",
+    "descripcion": "Un dragón largo que serpentea por el cielo de la Gran Muralla entre los faroles.",
+    "datos": [["Mundo", "7 · La Gran Muralla"], ["Golpes para vencerlo", "6 (modo normal)"]]
+  },
+  {
+    "id": "gato-del-abismo",
+    "nombre": "El Gato del Abismo",
+    "tipo": "jefe",
+    "rol": "Jefe final",
+    "imagen": "img/personajes/jefe-gato-del-abismo.png",
+    "habilidad": "Furia del eclipse",
+    "descripcion": "El temible jefe final de los Prados del Eclipse Lunar. Como todos los jefes, se enfurece cuando pierde la mitad de su vida.",
+    "datos": [["Mundo", "8 · Prados del Eclipse Lunar"], ["Golpes para vencerlo", "6 (modo normal)"]]
+  }
+]

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es" data-tema="oscuro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Juega MIAU Adventure completo en tu navegador.">
+    <meta name="author" content="Roger Gilberto Saltos Villao y Carlos Elian Ventimilla Suconota">
+    <meta name="theme-color" content="#14112b">
+    <title>Jugar | MIAU Adventure</title>
+    <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/tema.js"></script>
+</head>
+<body>
+    <a class="saltar" href="#contenido">Saltar al contenido</a>
+
+    <header class="cabecera">
+        <nav class="nav contenedor" aria-label="Navegación principal">
+            <a class="nav__marca" href="index.html">
+                <img src="img/favicon.svg" alt="" width="40" height="40">
+                <span>MIAU<br>ADVENTURE</span>
+            </a>
+            <ul class="nav__menu" id="menu">
+                <li><a class="nav__enlace" href="index.html">Inicio</a></li>
+                <li><a class="nav__enlace" href="personajes.html">Personajes</a></li>
+                <li><a class="nav__enlace" href="galeria.html">Galería</a></li>
+                <li><a class="nav__enlace" href="jugar.html" aria-current="page">Jugar</a></li>
+                <li><a class="nav__enlace" href="contacto.html">Contacto</a></li>
+            </ul>
+            <div class="nav__acciones">
+                <button class="boton-icono" id="btn-tema" type="button" aria-label="Cambiar a tema claro">
+                    <svg class="icono icono--luna" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a7.5 7.5 0 0 0 9 9 9 9 0 1 1-9-9z"/></svg>
+                    <svg class="icono icono--sol" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+                </button>
+                <button class="boton-icono nav__hamburguesa" id="btn-menu" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menú">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main id="contenido">
+        <section class="cabecera-pagina">
+            <div class="contenedor">
+                <p class="etiqueta">Juego completo</p>
+                <h1 class="cabecera-pagina__titulo">Jugar MIAU Adventure</h1>
+                <p>Elige a tu gato, la dificultad y el mundo, y empieza la aventura. Tu progreso, tus monedas y tus récords se guardan en este navegador.</p>
+            </div>
+        </section>
+
+        <section class="seccion" aria-labelledby="titulo-juego">
+            <div class="contenedor juego">
+                <h2 class="visualmente-oculto" id="titulo-juego">Juego</h2>
+                <div class="juego__marco" id="marco-juego">
+                    <iframe id="ventana-juego" src="juego/index.html" title="MIAU Adventure, juego de plataformas" allow="fullscreen; gamepad; autoplay"></iframe>
+                </div>
+                <p class="juego__aviso">Haz clic dentro del juego para usar el teclado. En el celular gira la pantalla y usa «Pantalla completa»: aparecerán botones táctiles.</p>
+                <div class="juego__barra">
+                    <button class="boton boton--primario" type="button" id="btn-pantalla">Pantalla completa</button>
+                    <button class="boton boton--secundario" type="button" id="btn-reiniciar">Reiniciar juego</button>
+                    <a class="boton boton--secundario" href="juego/index.html" target="_blank" rel="noopener">Abrir en otra pestaña</a>
+                </div>
+                <ul class="marcadores" aria-label="Tu progreso en este navegador">
+                    <li class="marcador"><span class="marcador__valor" id="mejor-puntaje">Sin récord</span><span class="marcador__texto">Mejor puntaje</span></li>
+                    <li class="marcador"><span class="marcador__valor" id="monedas">0</span><span class="marcador__texto">Monedas</span></li>
+                    <li class="marcador"><span class="marcador__valor" id="peces">0</span><span class="marcador__texto">Pescados recogidos</span></li>
+                    <li class="marcador"><span class="marcador__valor" id="logros">0 / 7</span><span class="marcador__texto">Logros</span></li>
+                </ul>
+                <div class="dos-columnas juego__ayuda">
+                    <article class="tarjeta">
+                        <h3>Controles</h3>
+                        <ul class="lista-controles">
+                            <li><kbd>←</kbd><kbd>→</kbd> moverse</li>
+                            <li><kbd>Espacio</kbd> o <kbd>↑</kbd> saltar y doble salto</li>
+                            <li><kbd>Shift</kbd> o <kbd>X</kbd> dash</li>
+                            <li><kbd>P</kbd> o <kbd>Esc</kbd> pausa · <kbd>F</kbd> pantalla completa</li>
+                            <li>Jugador 2: <kbd>A</kbd><kbd>D</kbd> moverse, <kbd>W</kbd> saltar, <kbd>Q</kbd> dash</li>
+                        </ul>
+                    </article>
+                    <article class="tarjeta">
+                        <h3>Consejos</h3>
+                        <ul class="lista-consejos">
+                            <li>Cae sobre los mapaches para vencerlos, pero salta por encima de los erizos.</li>
+                            <li>Recoge las tres estrellas de cada mundo y busca la entrada a la cueva secreta.</li>
+                            <li>El poder de súper gato dura 20 segundos y te hace invencible.</li>
+                            <li>Golpea a los jefes cayéndoles encima; se enfurecen a mitad de su vida.</li>
+                            <li>Guarda monedas para comprar a Nimbus en la tienda.</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="pie">
+        <div class="contenedor pie__grid">
+            <section class="pie__bloque">
+                <a class="nav__marca" href="index.html">
+                    <img src="img/favicon.svg" alt="" width="40" height="40">
+                    <span>MIAU<br>ADVENTURE</span>
+                </a>
+                <p>Un juego de plataformas con cinco gatos, ocho mundos y ocho jefes, hecho con HTML, CSS y JavaScript.</p>
+            </section>
+            <nav class="pie__bloque" aria-label="Enlaces del pie">
+                <h2 class="pie__titulo">Navegación</h2>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="personajes.html">Personajes</a></li>
+                    <li><a href="galeria.html">Galería</a></li>
+                    <li><a href="jugar.html">Jugar</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+            <section class="pie__bloque">
+                <h2 class="pie__titulo">Equipo</h2>
+                <ul>
+                    <li>Roger Gilberto Saltos Villao</li>
+                    <li>Carlos Elian Ventimilla Suconota</li>
+                </ul>
+            </section>
+        </div>
+        <p class="pie__creditos">Proyecto Primer Parcial · Desarrollo de Aplicaciones Web · Universidad de Guayaquil · <span id="anio">2026</span></p>
+        <button class="volver-arriba" id="btn-arriba" type="button" aria-label="Volver arriba">
+            <svg class="icono" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 15l6-6 6 6"/></svg>
+        </button>
+    </footer>
+    <script src="js/main.js" defer></script>
+    <script src="js/jugar.js" defer></script>
+</body>
+</html>
